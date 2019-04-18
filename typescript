@@ -1,0 +1,392 @@
+Script started on Wed 17 Apr 2019 06:31:29 PM PDT
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git cong[Kfig user.name "Arya Whit ehorn"
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git config  --global user.name  "Arya Whitehorn"
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git config --global email[K[K[K[K[Kuser.email  whiteha4@wwu.edu
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ touch writeup.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add writeup.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Addd[Ked empty writ eup[K[Awhiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Added empty writeup"
+[master 16f67aa] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': aryawhitehorn
+Password for 'https://aryawhitehorn@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 316 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-aryawhitehorn
+   2ee58ec..16f67aa  master -> master
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add writeup.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Added part 1 (names) write[K[K[K[K[Kto writeup"
+[master 672a49f] Added part 1 (names) to writeup
+ 1 file changed, 2 insertions(+)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': aryawhitehorn
+Password for 'https://aryawhitehorn@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 303 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-aryawhitehorn
+   16f67aa..672a49f  master -> master
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ touch ^?[Kusername.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add username.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Added empy[Kty user name"
+[master 8a8ad87] Added empty user name
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 username.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': arywhi   awhitehorn
+Password for 'https://aryawhitehorn@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 351 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-aryawhitehorn
+   672a49f..8a8ad87  master -> master
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add username.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Added a[Kpart 1 (name[K[K[K[Kname, [Kwwu username, [Kgithub username)  to username.txt"
+[master 36d41a5] Added part 1 (name,wwu username,github username) to username.txt
+ 1 file changed, 1 insertion(+)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ p[Kgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': arywh  awhitehorn
+Password for 'https://aryawhitehorn@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 317 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-aryawhitehorn
+   8a8ad87..36d41a5  master -> master
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ touch deletme.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git[K[K[Kgit log
+[?1h=[33mcommit 36d41a57522c104a74b4dfa9e557262259f8b116[m[m
+Author: Arya Whitehorn <whiteha4@wwu.edu>[m
+Date:   Wed Apr 17 18:43:59 2019 -0700[m
+[m
+    Added part 1 (name,wwu username,github username) to username.txt[m
+[m
+[33mcommit 8a8ad8798e27ffecad1d5601247f65ca5e5bbbd7[m[m
+Author: Arya Whitehorn <whiteha4@wwu.edu>[m
+Date:   Wed Apr 17 18:41:56 2019 -0700[m
+[m
+    Added empty user name[m
+[m
+[33mcommit 672a49f19913dc0a237001ec50cb0403ca2e209b[m[m
+Author: Arya Whitehorn <whiteha4@wwu.edu>[m
+Date:   Wed Apr 17 18:37:17 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 16f67aaa510688ac3ce644b763d6c582e2fd4acd[m[m
+Author: Arya Whitehorn <whiteha4@wwu.edu>[m
+Date:   Wed Apr 17 18:34:33 2019 -0700[m
+[m
+    Added empty writeup[m
+:[K[K[m
+:[K[K[HM[33mcommit 36d41a57522c104a74b4dfa9e557262259f8b116[m[m
+[24;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[K:[K[K[m
+:[K[K[HM[33mcommit 36d41a57522c104a74b4dfa9e557262259f8b116[m[m
+[24;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K:[K[K:[K[K[?1l>whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ 
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git blame username.txt
+[?1h=36d41a57 (Arya Whitehorn 2019-04-17 18:43:59 -0700 1) 1. Arya Whitehorn,whiteha4,aryawhitehorn[m
+[K[?1l>whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git diff writeup.txt
+[?1h=[K[?1l>whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git mv deleteme.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git mv deleteme.txt pract[Ktice.txt
+fatal: bad source, source=deleteme.txt, destination=practice.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git reset [K[K[K[K[K[Kcheckout username.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git reset deletem[K[K[K[K[K[K[Kpractice.txt
+fatal: ambiguous argument 'practice.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdeletme.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "dlete[K[K[K[Kelete me"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31mdeletme.txt[m
+
+nothing added to commit but untracked files present
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add delete [Kme.txt
+fatal: pathspec 'deleteme.txt' did not match any files
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git rm deleteme.txt
+fatal: pathspec 'deleteme.txt' did not match any files
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git rm practice.txt
+fatal: pathspec 'practice.txt' did not match any files
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push delete [Kme.txt
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: 'deleteme.txt' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git branch questiuo[K[Kon 3[K[K3
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git checkout question3
+Switched to branch 'question3'
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add writeup.txt
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Added part 3 (favorite song) to writeup.txt"
+[question3 e588528] Added part 3 (favorite song) to writeup.txt
+ 1 file changed, 1 insertion(+)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git config --global push.default matching
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git status
+On branch question3
+nothing to commit, working directory clean
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git branch question3
+fatal: A branch named 'question3' already exists.
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git merge question3
+Updating 36d41a5..e588528
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push
+Username for 'https://github.com': aryawhitehorn
+Password for 'https://aryawhitehorn@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 361 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-aryawhitehorn
+   36d41a5..e588528  master -> master
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git branch -d question3
+Deleted branch question3 (was e588528).
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/whiteha4/csci241/lab-1-aryawhitehorn/build.gradle into local compilation cache[m[111D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project > Compiling /home/whiteha4/csci241/lab-1-aryawhitehorn/build.gradle into local compilation cache[m[111D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 7s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mwhiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mwhiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ gradle run --args="241"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mwhiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git add s[Ksrc/main/java/lab1/Hello.java
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git commit -m "Hello now prints command line arg"
+[master 820b0b2] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ git push
+Username for 'https://github.com': aryw awhitehorn
+Password for 'https://aryawhitehorn@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 482 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-aryawhitehorn
+   e588528..820b0b2  master -> master
+whiteha4@cf162-06:~/csci241/lab-1-aryawhitehorn$ exit
+exit
+
+Script done on Wed 17 Apr 2019 07:14:13 PM PDT
